@@ -2,6 +2,6 @@
 
 vcenter_hostname: "172.16.101.10"
 
-vcenter_username: "ansible@vsphere.local"
+vcenter_username: "user@vsphere.local"
 
-vcenter_password: "1qaz!QAZ"
+vcenter_password: "yhnYHN"
