@@ -1,0 +1,7 @@
+---
+
+vcenter_hostname: "172.16.101.10"
+
+vcenter_username: "ansible@vsphere.local"
+
+vcenter_password: "1qaz!QAZ"

@@ -1,0 +1,16 @@
+- name: Gather cluster info from given datacenter
+  vmware_cluster_info:
+    hostname: '{{ vcenter_hostname }}'
+    username: '{{ vcenter_username }}'
+    password: '{{ vcenter_password }}'
+    datacenter: DC-LAB
+    validate_certs: no
+  delegate_to: localhost
+  register: cluster_info
+  tags: step
+
+- name: print information-vc
+  debug:
+    msg: '{{cluster_info}}'
+  tags: steptow
+
